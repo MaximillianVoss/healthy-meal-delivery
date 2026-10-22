@@ -1,0 +1,31 @@
+# Локальная среда и секреты
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.pem
+*.key
+secrets/
+# Сборка, IDE и зависимости
+bin/
+obj/
+.vs/
+node_modules/
+TestResults/
+coverage/
+*.user
+*.suo
+# Данные и резервные копии
+data/
+backups/
+*.bak
+*.dump
+*.db
+*.log
+# Отчёты и пользовательские документы хранятся отдельно
+reports/
+*.docx
+*.pdf
+.DS_Store
+Thumbs.db
